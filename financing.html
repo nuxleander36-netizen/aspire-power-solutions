@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Financing | Aspire Power Solutions</title>
+
+  <!-- Fonts: Raleway (headings) + Montserrat (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <!-- TODO: put your logo at images/logo.png -->
+        <img src="images/logo.png" alt="Aspire" />
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="financing.html">Financing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="#" class="btn-nav">Pay Small Small</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= BANNER ================= -->
+  <section class="page-banner">
+    <h1>Financing</h1>
+  </section>
+
+  <!-- ================= FINANCING CONTENT ================= -->
+  <main class="financing-section">
+    <div class="container container--fin">
+      <div class="fin-grid">
+
+        <div class="fin-text">
+          <h2>Embrace the power of the sun with Aspire Solutions and save up to 50%!</h2>
+          <p>
+            Make the switch to solar and enjoy incredible savings while reducing your carbon
+            footprint. Aspire Solutions offers reliable and efficient solar energy systems to
+            illuminate your home sustainably.
+          </p>
+        </div>
+
+        <div class="calc-card">
+          <h3 class="calc-title">Modify the information below for a more accurate calculation</h3>
+
+          <div class="calc-cols">
+            <div class="calc-col">
+              <h4>Generator details</h4>
+
+              <div class="calc-field">
+                <label for="calc-petrol">How much generator petrol do you use?</label>
+                <select id="calc-petrol">
+                  <option>3.0 L/hr</option>
+                  <option>2.0 L/hr</option>
+                  <option>4.0 L/hr</option>
+                </select>
+              </div>
+
+              <div class="calc-field">
+                <label for="calc-hours">How many hours do you use your gen/day?</label>
+                <input id="calc-hours" type="text" value="8" />
+              </div>
+
+              <div class="calc-field">
+                <label for="calc-spend">Your total petrol spend per week</label>
+                <div class="calc-money"><span>&#8358;</span><input id="calc-spend" type="text" value="5,280" /></div>
+              </div>
+
+              <div class="calc-field">
+                <label for="calc-service">Monthly servicing cost</label>
+                <div class="calc-money"><span>&#8358;</span><input id="calc-service" type="text" value="10,000" /></div>
+                <small>Optional</small>
+              </div>
+            </div>
+
+            <div class="calc-col">
+              <h4>Aspire payment plan details</h4>
+
+              <div class="calc-field">
+                <label for="calc-monthly">Pay a monthly payment of</label>
+                <div class="calc-money"><span>&#8358;</span><input id="calc-monthly" type="text" value="25,000" /></div>
+              </div>
+
+              <div class="calc-field">
+                <label for="calc-deposit">Pay an upfront deposit of</label>
+                <div class="calc-money"><span>&#8358;</span><input id="calc-deposit" type="text" value="100,000" /></div>
+              </div>
+
+              <div class="calc-field">
+                <label for="calc-duration">Duration of payment plan (months)</label>
+                <select id="calc-duration">
+                  <option>12 Months</option>
+                  <option>24 Months</option>
+                  <option>36 Months</option>
+                </select>
+              </div>
+
+              <button type="button" class="calc-btn">See how much you'll be saving</button>
+            </div>
+          </div>
+
+          <div class="calc-tabs" role="tablist">
+            <button type="button" class="calc-tab active" role="tab">For a lease to own package</button>
+            <button type="button" class="calc-tab" role="tab">For a rental package</button>
+          </div>
+
+          <div class="calc-result">
+            <p>If you go solar with Aspire, you can save a total amount of</p>
+            <strong>&#8358;2,149,153.77</strong>
+            <span>For the next 24 months <i class="calc-info" title="More info">i</i></span>
+          </div>
+
+          <div class="calc-stats">
+            <div><small>Gen spend over 24 months <i class="calc-info" title="More info">i</i></small><b>&#8358;2,574,153.77</b></div>
+            <div><small>Solar spend over 24 months <i class="calc-info" title="More info">i</i></small><b>&#8358;425,000.00</b></div>
+            <div><small>Your break-even period <i class="calc-info" title="More info">i</i></small><b>2 months</b></div>
+          </div>
+
+          <div class="calc-foot">
+            <p>Have questions about Aspire? <a href="contact.html">Talk with us</a></p>
+            <a href="#" class="calc-email">Send a detailed copy to your email</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= CTA BAND ================= -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Join the Energy<br />Revolution with Aspire<br />Power Solutions!</h2>
+      <div class="cta-text">
+        <p>
+          Unlock the power of reliable, sustainable energy for your home or business. Embrace our
+          cutting-edge solar solutions and achieve true energy independence while saving on costs.
+        </p>
+        <a href="contact.html" class="btn-cta">Request Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <!-- TODO: put your logo at images/logo.png -->
+          <img src="images/logo.png" alt="Aspire" />
+        </a>
+        <ul class="footer-contact">
+          <li>
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </span>
+            service@aspirepowersolutions.com
+          </li>
+          <li>
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+            </span>
+            +234 908 683 3631
+          </li>
+          <li>
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </span>
+            <span>9a Joseph Adu Close, Oniru Victoria Island,<br />Laagos Nigeria</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="financing.html">Financing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Social Media</h4>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      &copy;2025 All rights reserved <strong>Aspire Solutions</strong>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

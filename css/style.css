@@ -2395,3 +2395,25 @@ ul {
     font-size: 28px;
   }
 }
+
+/* ---------- Home hero: typing word ---------- */
+.typed-word {
+  white-space: nowrap;
+}
+
+.typed-word::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 0.85em;
+  margin-left: 4px;
+  background: currentColor;
+  vertical-align: -0.05em;
+  animation: cursor-blink 1s steps(1) infinite;
+}
+
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
